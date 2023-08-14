@@ -1,5 +1,0 @@
-/bin
-/bin/*
-/src/*/bin
-/src/*/obj
-.vscode
