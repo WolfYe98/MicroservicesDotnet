@@ -43,3 +43,6 @@ dotnet pack -o ..\..\..\packages\
 ```
 
 `-o outputDirectory` path to the output directory where the output should be stored.\
+
+**When we modified something of this library and we want to repack the package, we have to pack it with the option `-p:PackageVerion=x.y.z` where `x.y.z` are numbers that defines the version of the package, we have to do that because if we don't other projects will not update correctly the package (they also have to do again `dotnet add package Play.Common` command).**
+
