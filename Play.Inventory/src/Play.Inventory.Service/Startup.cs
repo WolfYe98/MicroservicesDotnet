@@ -15,6 +15,8 @@ using Play.Common.MongoDB;
 using Play.Inventory.Service.Entities;
 using Play.Common.Clients;
 using Play.Inventory.Service.Dtos;
+using System.Net.Http;
+using Polly;
 
 namespace Play.Inventory.Service
 {
